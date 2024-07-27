@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "education_name":"HSC Education",
+        "year":"2021-2023",
+        "intitude_name": "Dhaka collage",
+        "result": "GPA-4.50",
+        "description":"Dhaka College also known as DC is one of the most important as well as the earliest higher secondary educational institution of Bangladesh located in Dhanmondi, Dhaka.",
+        "category": "HSC"
+    },
+    {
+        "id": 3,
+        "education_name":"SSC Education",
+        "year":"2021",
+        "intitude_name": "Dhanmondi Govt. Boys' high School",
+        "result": "GPA-4.17",
+        "description":"This school is near our area. from here I passed SSC in 2021.",
+        "category": "SSC"
+    }
+]

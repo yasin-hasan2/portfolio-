@@ -1,0 +1,175 @@
+.skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: #1e293b;
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    background: #11c6cf;
+    animation: progress 0.4s ease-in-out forwards;
+
+}
+
+.skill-per.html{
+    width: 100%;
+    animation-delay: 2s;
+}
+/* .skill-per.css{
+    width: 80%;
+    animation-delay: 0.1s;
+}
+.skill-per.js{
+    width: 85%;
+    animation-delay: 0.1s;
+} */
+
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.skill-per .toltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 14px ;
+    font-weight: 600;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #03e9f4;
+    z-index: 1;
+}
+
+/* .toltip::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #03e9f4;
+    transform: translateX(-50%) rotate(45deg);
+} */
+
+/* .container::before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+    background: #0c9fa7;
+} */
+
+/* .container .card {
+  width: 100%;
+  height: 330px;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  transition: 0.5s;
+} */
+
+/* .container .card .box {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  z-index: 10;
+  border-radius: 10px;
+}
+.main-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 30px;
+}
+.parcent {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 20;
+  border-radius: 50%;
+}
+
+.parcent .number {
+  position: absolute;
+ top: 40px;
+ left: 30%
+}
+
+.parcent .number h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+.parcent .number h2 span {
+  font-size: 24px;
+}
+
+.text {
+  z-index: 12;
+  bottom: 40px;
+  position: absolute;
+  font-size: 20px;
+ width: 100%;
+}
+.text h2{
+    color: #03e9f4;
+text-align: center;
+}
+
+.container .card .box svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke: rgba(255, 255, 255, 0.05);
+  transform: translate(5px, 5px);
+  stroke-linecap: round;
+}
+.card .box svg circle:nth-child(2) {
+  stroke: white;
+  stroke-dasharray: 440px;
+  stroke-dashoffset: 440px;
+}
+
+.card:nth-child(1) .box svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 96) / 100);
+}
+
+.card:nth-child(2) .box svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 80) / 100);
+}
+
+.card:nth-child(3) .box svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 85) / 100);
+} */

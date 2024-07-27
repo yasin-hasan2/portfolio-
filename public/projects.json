@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "project_name": "BR restaurant",
+    "description": "A MERN website, simplifies your fitness journey. Personalized plans, real-time tracking, and community support make achieving your health goals effortless. Start today for a healthier tomorrow.",
+    "project_thumnail": "https://i.ibb.co/0JRHjYw/bangla-restaurant-83eb9-web-app.png",
+    "technology": ["React", "Tailwindcss", "Jwt", "MongoDB", "ExpressJs"],
+    "project_source": [
+      {
+        "client_github_link": "https://github.com/yasin-hasan2/bangla-resturent.git"
+      },
+      {
+        "server_github_link": "https://github.com/yasin-hasan2/bangla-restaurant-server.git"
+      },
+      {
+        "live_link": "https://bangla-restaurant-83eb9.web.app/"
+      }
+    ]
+  }
+]

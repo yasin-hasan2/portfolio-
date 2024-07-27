@@ -1,0 +1,17 @@
+
+.active, .homeActive{
+    border-bottom: 2px solid #03e9f4;
+    
+}
+
+.active, .homeActive {
+  color: #03e9f4 !important; /* Set your desired active color */
+}
+.active:hover{
+    border-bottom: 2px solid transparent;
+    color: #03e9f4;
+}
+.homeActive:hover{
+    border-bottom: 2px solid transparent;
+    color: #03e9f4;
+}

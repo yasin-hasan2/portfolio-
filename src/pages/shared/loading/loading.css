@@ -1,0 +1,131 @@
+.glitch-text {
+  font-size: 6em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #18ced7;
+  position: relative;
+  animation: glitch 2s infinite;
+  /* background: linear-gradient(90deg, #03e9f4, #0390f4 , #0bb5be,#03e9f4, #0390f4 , #0bb5be);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite; */
+}
+
+@keyframes glitch {
+
+  0%,
+  100% {
+    text-shadow: 0 0 0 transparent;
+    transform: scale(1);
+  }
+
+  15% {
+    text-shadow: 1px 1px 0 #f00, -1px -1px 0 #0f0;
+    transform: skewX(-10deg);
+  }
+
+  30% {
+    text-shadow: -1px -1px 0 #00f, 1px 1px 0 #ff0;
+    transform: skewX(10deg);
+  }
+
+  45% {
+    text-shadow: 1px -1px 0 rgb(4, 51, 51), -1px 1px 0 #f0f;
+    /* transform: skewY(-10deg); */
+  }
+
+  60% {
+    text-shadow: -1px 1px 0 #f00, 1px -1px 0 #0f0;
+    /* transform: skewY(10deg); */
+  }
+
+  75% {
+    text-shadow: 2px 2px 0 #ff0, -2px -2px 0 #00f;
+    /* transform: rotate(5deg); */
+  }
+
+  90% {
+    text-shadow: -2px -2px 0 #0f0, 2px 2px 0 #f00;
+    /* transform: rotate(-5deg); */
+  }
+}
+
+.glitch-text2 {
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  animation: glitch2 2s infinite;
+}
+
+@keyframes glitch2 {
+
+  0%,
+  100% {
+    text-shadow: 0 0 0 transparent;
+    transform: scale(1);
+  }
+
+  15% {
+    text-shadow: 1px 1px 0 #0a2729, -1px -1px 0 #10cfdd;
+    transform: skewX(-10deg);
+  }
+
+  30% {
+    text-shadow: -1px -1px 0 #00f, 1px 1px 0 rgb(21, 21, 20);
+    transform: skewX(10deg);
+  }
+
+  45% {
+    text-shadow: 1px -1px 0 #0ff, -1px 1px 0 #f0f;
+    transform: skewX(-10deg);
+  }
+
+  60% {
+    text-shadow: -1px 1px 0 #f00, 1px -1px 0 #0f0;
+    transform: skewX(10deg);
+  }
+
+  75% {
+    text-shadow: 2px 2px 0 rgb(12, 183, 231), -2px -2px 0 #00f;
+    /* transform: rotate(5deg); */
+  }
+
+  90% {
+    text-shadow: -2px -2px 0 rgb(255, 0, 157), 2px 2px 0 #f00;
+    /* transform: rotate(-5deg); */
+  }
+}
+
+.last-text {
+  animation: textAnimate 3s;
+}
+
+@keyframes textAnimate {
+  0% {
+    transform: translateX(0%);
+  }
+
+  20% {
+    transform: translateX(20%);
+  }
+
+  40% {
+    transform: translateX(-5%);
+  }
+
+  60% {
+    transform: translateX(10%);
+  }
+
+  80% {
+    transform: translateX(-5%);
+  }
+
+  100% {
+    transform: translateX(20%);
+  }
+}

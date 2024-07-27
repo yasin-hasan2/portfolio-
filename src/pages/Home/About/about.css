@@ -1,0 +1,26 @@
+.abot-bg-grad {
+    background: linear-gradient(
+      to top right,
+      #010610,
+      #010610,
+      #010610,
+      #010610,
+      #132444,
+      #010610
+    );
+    border: 2px solid #132444;
+    border-radius: 10px;
+  }
+  .experience-style{
+    background: linear-gradient(
+        to bottom right,
+        #132444,
+        #010610,
+        #010610,
+        #010610,
+        #132444,
+        #010610
+      );
+      border: 2px solid #132444;
+      border-radius: 10px;
+  }

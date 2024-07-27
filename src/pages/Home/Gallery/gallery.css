@@ -1,0 +1,35 @@
+/* gallery.css 
+.img-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.img-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+} */
+
+.img-rotat{
+    transform: rotate3d(45deg);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid #132444;
+}
+
+.img-rotat:hover{
+    animation: bouns2 0.70s;
+  
+  }
+  @keyframes bouns2 {
+    0%, 100% {
+      transform: translateY(0);
+      /* animation-timing-function: cubic-bezier(0.8, 0, 1, 10); */
+    }
+    50% {
+      transform: translateY(-10%);
+      /* animation-timing-function: cubic-bezier(0, 0, 0.2, 10); */
+    }
+  }
+
+

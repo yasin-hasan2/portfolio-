@@ -1,0 +1,15 @@
+.skill-icon:hover {
+    transform: rotateY(720deg);
+    transition: transform 1s; /* Add a smooth transition for a better visual effect */
+}
+
+.skill-card{
+    width: 100%;
+    background: linear-gradient(to bottom left, #010610,#010610,#092152,#010610, #092152);
+    border: 2px solid #132444;
+  }
+
+  .skill-card:hover{
+    background: linear-gradient(to top left, #010610,#010610,#092152,#010610, #092152);
+  }
+
