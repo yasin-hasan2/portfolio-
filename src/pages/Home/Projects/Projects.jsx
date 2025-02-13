@@ -72,7 +72,7 @@ const Projects = () => {
             //   nextEl: "#swiper-button-next",
             //   prevEl: "#swiper-button-prev",
             // }}
-            autoplay={{ delay: 4000, disableOnInteraction: false }}
+            autoplay={{ delay: 8000, disableOnInteraction: false }}
             pagination={{
               clickable: true,
               renderBullet: function (index, className) {
